@@ -18,7 +18,7 @@ Page({
     this.gameStart();
   },
   gameStart: function() {  // 游戏开始
-    var main = new Main(4);
+    var main = new Main(3);
     this.setData({
       main: main,
       bestScore: wx.getStorageSync('highScore')

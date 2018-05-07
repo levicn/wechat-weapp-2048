@@ -62,12 +62,11 @@
 .game {
   margin-top: 15vh;
   position: absolute;
-  padding-top: 5vw; 
-  padding-left: 1vw;
+  padding-top: 3vw; 
   background: #bbada0;
   border-radius: 6px;
-  width: 93vw;
-  height: 93vw;
+  width: 81vw;
+  height: 81vw;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -80,8 +79,8 @@
   touch-action: none;
 }
 .cell {
-  width: 19vw;
-  height: 19vw; 
+  width: 23vw;
+  height: 23vw; 
   margin-left: 3vw;
   margin-bottom: 3vw;
   float: left;
@@ -91,9 +90,9 @@
   overflow: hidden;
 }
 .cell-con { 
-  width: 19vw;
-  height: 19vw; 
-  line-height: 19vw;
+  width: 23vw;
+  height: 23vw; 
+  line-height: 23vw;
   position: absolute;
   font-size: 35px;
   font-weight: bold;

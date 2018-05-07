@@ -1,5 +1,5 @@
 <!--pages/2048/2048.wxml-->
-<view class='container'> 
+<view class='container' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"> 
   <!-- loading -->
   <loading hidden="{{hidden}}">
     加载中...
@@ -17,7 +17,7 @@
 
   <view class="game"> 
     <!-- 矩阵 -->
-    <view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+    <view>
       <view class='row' wx:for="{{num}}" wx:for-item="row" wx:key="row.key" >
         <view class='cell' wx:for="{{row}}" wx:for-item="cell" wx:key="cell.key">
           <view class='cell-con cell-con-{{cell}}'>
